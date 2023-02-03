@@ -9,3 +9,4 @@ RUN mkdir -p /etc/services.d/unbound
 COPY unbound-run /etc/services.d/unbound/run
 
 ENTRYPOINT ./s6-init
+
